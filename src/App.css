@@ -1,0 +1,37 @@
+.accordion-title {
+  background-color: grey;
+  padding: 20px;
+  font-size: 30px;
+  font-family: "Times New Roman", Times, serif;
+  font-style: italic;
+  margin: 20px 15px 20px 15px;
+}
+.userDisplayDetails {
+  max-height: 0;
+  overflow: hidden;
+}
+.userDisplayDetails.show {
+  display: flex;
+  align-items: center;
+  height: auto;
+  max-height: 500px;
+}
+
+.uparrow:after {
+  content: "\2304";
+  float: right;
+}
+
+.downarrow:after {
+  content: "\2303";
+  float: right;
+}
+
+img {
+  float: left;
+  margin: 10px;
+}
+
+h1{
+  text-align: center;
+}
